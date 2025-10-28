@@ -26,7 +26,7 @@ QUESTIONS: List[Dict] = [
         "security_riddle": "I wear rings",
         "security_key": answers["level_1_security_key"],
         "hint": "💡 2 oo",
-        "security_hint": "💡 Database Management System",
+        "security_hint": "💡Reverse gid (leaf)",
         "category": "Campus Riddle",
         "difficulty": "easy",
         "points": 10
@@ -36,8 +36,8 @@ QUESTIONS: List[Dict] = [
         "answer": answers["level_2_answer"],
         "security_riddle": "I'm odoru with taiyō",
         "security_key": answers["level_2_security_key"],
-        "hint": "💡 Where you wash up",
-        "security_hint": "💡 Impersonation and Cheating",
+        "hint": "💡First word starts with 'w' and it has 7 letters.",
+        "security_hint": "No hints are available.",
         "category": "Campus Riddle",
         "difficulty": "medium",
         "points": 15
@@ -47,8 +47,8 @@ QUESTIONS: List[Dict] = [
         "answer": answers["level_3_answer"],
         "security_riddle": "I have a talent, but I don't use it",
         "security_key": answers["level_3_security_key"],
-        "hint": "💡 Where sports are played",
-        "security_hint": "💡 Father of Artificial Intelligence",
+        "hint": "💡First word starts with 's'.",
+        "security_hint": "No hints are available.",
         "category": "Campus Riddle",
         "difficulty": "hard",
         "points": 20
@@ -58,8 +58,8 @@ QUESTIONS: List[Dict] = [
         "answer": answers["level_4_answer"],
         "security_riddle": "The action never lies",
         "security_key": answers["level_4_security_key"],
-        "hint": "💡 Where power flows",
-        "security_hint": "💡 Linus Torvalds",
+        "hint": "💡 First word starts with 'p'.",
+        "security_hint": "No hints are available.",
         "category": "Campus Riddle",
         "difficulty": "medium",
         "points": 15
@@ -69,8 +69,8 @@ QUESTIONS: List[Dict] = [
         "answer": answers["level_5_answer"],
         "security_riddle": "No path will lead you straight to me",
         "security_key": answers["level_5_security_key"],
-        "hint": "💡 Where people gather",
-        "security_hint": "💡 Jensen Huang",
+        "hint": "💡 First word starts with c and also second (second word has 6 letters).",
+        "security_hint": "No hints are available.",
         "category": "Campus Riddle",
         "difficulty": "medium",
         "points": 15
@@ -80,8 +80,8 @@ QUESTIONS: List[Dict] = [
         "answer": answers["level_6_answer"],
         "security_riddle": "Between one spin and one swing",
         "security_key": answers["level_6_security_key"],
-        "hint": "💡 Where students eat and socialize",
-        "security_hint": "💡 JavaScript debugging function",
+        "hint": "No hints are available.",
+        "security_hint": "No hints are available.",
         "category": "Campus Riddle",
         "difficulty": "hard",
         "points": 20
@@ -3580,4 +3580,5 @@ st.markdown("""
     <p style="font-size: 1rem;">Celebrating Open Source • Building Digital Freedom</p>
     <p style="font-size: 0.9rem; margin-top: 15px;">🔐 Elite Two-Phase Challenge System</p>
 </div>
+
 """, unsafe_allow_html=True)
