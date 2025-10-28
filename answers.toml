@@ -4,7 +4,7 @@
 [questions]
 
 # Level 1
-level_1_answer = "Coordinator"
+level_1_answer = "Coordinates"
 level_1_security_key = "DBMS"
 
 # Level 2
@@ -20,9 +20,10 @@ level_4_answer = "Power House"
 level_4_security_key = "Linus Torvalds"
 
 # Level 5
-level_5_answer = "College Center"
+level_5_answer = "Collage Center"
 level_5_security_key = "Jensen Huang"
 
 # Level 6
 level_6_answer = "Canteen"
+
 level_6_security_key = "console.log()"
